@@ -13,16 +13,17 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">Sobre mim</h1>
-        <p className="a-sub">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quasi, beatae veritatis id porro quibusdam ex facilis.</p>
+        <p className="a-sub">Olá, sou o Jeffrey, tenho 29 anos, e sou casado com a Pri.</p>
         <p className="a-desc">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus maiores omnis provident tenetur quia sed facilis temporibus sit quisquam eius, animi harum enim ipsum in necessitatibus minus dolore nesciunt eaque.
+          Sou um entusiasta da tecnologia, gamer amador, eu amo viajar, sou louco por desafios, ler livros, cuidar das minhas plantas, além de ser um cozinheiro de mão cheia. Há alguns meses, eu concluí um Bootcamp da Generation Brasil, e me tornei um Desenvolvedor Full Stack Java Junior. Saí uma pessoa nova deste ambiente, e descobri que amo programar! Mas além de aprender a desenvolver, também houve treinamento das soft skills, na qual tem extrema importância, e foi essencial para o meu desenvolvimento tanto profissional quanto pessoal.
+
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International GitHub</h4>
+            <h4 className="a-award-title">Minhas habilidades</h4>
             <p className="a-award-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex molestiae aliquam odit.
+              teste
             </p>
           </div>
         </div>

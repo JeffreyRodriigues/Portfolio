@@ -12,13 +12,13 @@ const Intro = () => {
           <div className="i-title-wrapper">
             <div className="i-title-item">Desenvolvedor Web</div>
             <div className="i-title-item">Gamer nas horas vagas</div>
-            <div className="i-title-item">Criador de conteúdo</div>
+            <div className="i-title-item">Desenvolvedor Mobile</div>
             <div className="i-title-item">Cozinheiro por lazer</div>
             <div className="i-title-item">Futuro Tech Lead</div>
           </div>
         </div>
         <p className="i-desc">
-          Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Quem num gosta di mim que vai caçá sua turmis!In elementis mé pra quem é amistosis quis leo.Suco de cevadiss deixa as pessoas mais interessantis.
+          Sou um Programador Full Stack, situado na capital de São Paulo. Comecei a estudar com foco em junho de 2021, e desde então estou empenhado em aprender, e já sou um apaixonado por programação. Sejam bem vindxs!
         </p>
       </div>
       <svg
