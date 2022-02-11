@@ -5,6 +5,7 @@ import Contact from "./components/contact/Contact.jsx";
 import { useContext } from "react";
 import { ThemeContext } from "./context";
 import Toggle from "./components/toggle/Toggle.jsx";
+import ProgressBar from "./components/progressBar/ProgressBar.jsx";
 
 const App = () => {
   const theme = useContext(ThemeContext)
@@ -14,6 +15,7 @@ const App = () => {
       <Toggle />
       <Intro />
       <About />
+      <ProgressBar />
       <ProductList />
       <Contact />
     </div>

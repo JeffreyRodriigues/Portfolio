@@ -1,5 +1,4 @@
 import "./about.css"
-import Award from "../../img/award.jpg"
 import Mea from "../../img/mea.jpg"
 
 const About = () => {
@@ -18,15 +17,6 @@ const About = () => {
           Sou um entusiasta da tecnologia, gamer amador, eu amo viajar, sou louco por desafios, ler livros, cuidar das minhas plantas, além de ser um cozinheiro de mão cheia. Há alguns meses, eu concluí um Bootcamp da Generation Brasil, e me tornei um Desenvolvedor Full Stack Java Junior. Saí uma pessoa nova deste ambiente, e descobri que amo programar! Mas além de aprender a desenvolver, também houve treinamento das soft skills, na qual tem extrema importância, e foi essencial para o meu desenvolvimento tanto profissional quanto pessoal.
 
         </p>
-        <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">Minhas habilidades</h4>
-            <p className="a-award-desc">
-              teste
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );

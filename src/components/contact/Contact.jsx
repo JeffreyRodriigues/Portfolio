@@ -50,13 +50,13 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Qual é a sua hitória? </b> sit amet consectetur adipisicing elit. Aut mollitia possimus, consequuntur labore a blanditiis delectus sunt qui.
+            <b>Qual é a sua história? </b> Sinta-se a vontade para conversar comigo!
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
-            <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Nome" name="user_name" />
+            <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Assunto" name="user_subject" />
             <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message"></textarea>
+            <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Mensagem" name="message"></textarea>
             <button>Enviar</button>
             {done && "Obrigado...!"}
           </form>
